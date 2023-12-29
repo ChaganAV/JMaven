@@ -1,8 +1,13 @@
 package ru.geekbrains;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Person {
+    @SerializedName("firstName")
     private String firstName;
+    @SerializedName("lastName")
     private String lastName;
+    @SerializedName("age")
     private int age;
 
     public Person(){}
